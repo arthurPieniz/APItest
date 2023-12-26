@@ -19,6 +19,7 @@ xhr.onload = function () {
         // Obter o valor da URL
         var urlParams = new URLSearchParams(window.location.search);
         var valorRecebido = urlParams.get('valor');
+        console.log(valorRecebido);
 
         document.getElementById("nome").innerHTML = data[valorRecebido].nome.abreviado
         document.getElementById("area").innerHTML += data[valorRecebido].area.total + " km2"
