@@ -1,0 +1,22 @@
+Argentina = index[8]
+Bolivia = index[28]
+Brasil = index[29]
+Chile = index[47]
+Colômbia = index[51]
+Equador = index[65]
+Guiana = index[92]
+Paraguai = index[195]
+Peru = index[181]
+Suriname = index[222]
+Uruguai = index[249]
+Venezuela = index[252]
+
+
+
+Mostrar países da América:
+
+for (var i = 0; i < data.length; i++){
+    if(data[i].localizacao.regiao.nome == "América"){
+        console.log(data[i].nome.abreviado + " o index é " + i)
+    }
+}

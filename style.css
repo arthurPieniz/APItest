@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+header{
+    background-color: rgb(20, 20, 20);
+    color: #5cd6ff;
+    text-align: center;
+    padding-top: 17px;
+}
+
+header .degrade , .degrade2{
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(rgb(20, 20, 20), #295f70);
+}
+
+.degrade2{
+    background-image: linear-gradient(#295f70, rgb(40, 40, 40));
+    border-radius: 0px 0px 20px 20px;
+}
+
+section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+section button{
+    width: 85%;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    background-color: rgb(20, 20, 20);
+    border: 0px;
+    color: #5cd6ff;
+    border-radius: 20px;
+}
+
+section h2{
+    margin-top: 13px;
+    font-size: 20pt;
+}
+
+section button img{
+    width: 90%;
+    border-radius: 18px;
+}
+
+header h2{
+    margin: 8px;
+}
